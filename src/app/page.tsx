@@ -26,7 +26,7 @@ export default function Home() {
             : line
         )
       );
-    }, 5000);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
